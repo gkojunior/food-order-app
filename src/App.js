@@ -2,10 +2,12 @@ import { Fragment } from 'react';
 
 import Header from './Compnonets/Layout/Header';
 import Meals from './Compnonets/Meals/Meals';
+import Cart from './Compnonets/Cart/Cart';
 
 function App() {
 	return (
-		<Fragment>
+    <Fragment>
+      <Cart />
 			<Header />
 			<main>
 				<Meals />
