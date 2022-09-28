@@ -1,3 +1,4 @@
+import MealItemForm from './MealItemForm';
 import classes from './MealItem.module.css';
 
 export default function MealItem({name, description, price }) {
@@ -10,7 +11,9 @@ export default function MealItem({name, description, price }) {
 			<div className={classes.description}>{description}</div>
 			<div className={classes.price}>{prices}</div>
 		</div>
-		<div></div>
+            <div>
+                <MealItemForm />
+        </div>
         </li>
     )    
 }
