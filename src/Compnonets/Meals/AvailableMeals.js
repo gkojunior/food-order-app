@@ -5,26 +5,26 @@ import classes from './AvailableMeals.module.css';
 const DUMMY_MEALS = [
 	{
 		id: 'm1',
-		name: 'Sushi',
-		description: 'Finest fish and veggies',
+		name: 'Banku',
+		description: 'Banku is a combination of fermented corn dough with cassava dough which is mixed and stirred in hot water till it becomes solid.',
 		price: 22.99,
 	},
 	{
 		id: 'm2',
-		name: 'Schnitzel',
-		description: 'A german specialty!',
+		name: 'Fufu',
+		description: 'This is a popular dish across the country and its neighbors',
 		price: 16.5,
 	},
 	{
 		id: 'm3',
-		name: 'Barbecue Burger',
-		description: 'American, raw, meaty',
+		name: 'Waakye',
+		description: 'Rice, Beans, and meat with Millet Leaves',
 		price: 12.99,
 	},
 	{
 		id: 'm4',
-		name: 'Green Bowl',
-		description: 'Healthy...and green...',
+		name: 'Omotuo',
+		description: 'Rice Balls with Peanut-Butter Soup',
 		price: 18.99,
 	},
 ];
