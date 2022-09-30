@@ -17,7 +17,7 @@ const ModalOverLay = ({children}) => {
 
 const portalElement = document.getElementById('overlays');
 
-export default function Modal({ children }) {
+export default function Modal({ children, onClose }) {
 	return (
 		<Fragment>
 			{ReactDOM.createPortal(<Backdrop onClose={onClose}/>, portalElement)}
