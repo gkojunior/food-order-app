@@ -6,7 +6,8 @@ const DUMMY_MEALS = [
 	{
 		id: 'm1',
 		name: 'Banku',
-		description: 'Banku is a combination of fermented corn dough with cassava dough which is mixed and stirred in hot water till it becomes solid.',
+		description:
+			'Banku is a combination of fermented corn dough with cassava dough which is mixed and stirred in hot water till it becomes solid.',
 		price: 22.99,
 	},
 	{
